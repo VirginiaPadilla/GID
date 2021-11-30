@@ -60,7 +60,7 @@
 
  
 
-\graphicspath{{examples/documentation/images/}{images/}} % Paths in which to look for images
+\graphicspath{{"C:/Users/Maru/Desktop/Gestion Informacion Documental/GID/images"}} % Paths in which to look for images
 
 \makeindex[columns=3, title=\'Indice Alfab\'etico, intoc] % Make LaTeX produce the files required to compile the index
 
@@ -85,7 +85,7 @@
 \begingroup
 \thispagestyle{empty} % Suppress headers and footers on the title page
 \begin{tikzpicture}[remember picture,overlay]
-	\node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=\paperwidth]{gid-3-org}};
+	\node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=\paperwidth]{portada}};
   
   	\draw (current page.center) node [fill=yellow!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]{\Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}{\centering Gestión de Información Documental\\[15pt] % Book title
 		{\Large  Gu\'ia de Apoyo al curso de Gesti\'on de Informaci\'on Documental }\\[20pt] % Subtitle
@@ -249,8 +249,8 @@
 
 \input{chapters/1-definicion.tex}
 \input{chapters/2-elaborar_busq.tex}
-\input{chapters/3-hacer_busq.tex}
-\input{chapters/4-redactar_doc.tex}
+\input{chapters/3-hacer_busq.tex} 
+\input{chapters/4-redactar_doc.tex} 
 \input{chapters/5-conclusiones.tex}
 
 
